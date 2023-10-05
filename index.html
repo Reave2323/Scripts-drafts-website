@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title>Index</title>
+<title>Home</title>
 <head>
     <script>
         function Draft1(){
@@ -7,6 +7,9 @@
         }
         function Draft1Extended(){
             window.location="Draft1Extended.html"
+        }
+        function Draft2(){
+            window.location="Draft2.html"
         }
     </script>
     <style>
@@ -17,18 +20,23 @@
 
         .Container {
             text-align: center;
+        }
+        body {
             font-size: larger;
         }
 
     </style>
 </head>
-<body>
+<body style="font-family:'Courier New'; font-size:12pt; font-weight:400; font-style:normal; letter-spacing:-0.02em;">
     <h1>Drafts of Scripts</h1>
     <div class="Container">
     <button name="Selection" type="Button" onclick="Draft1()">1st Draft</button>
     <br>
     <br>
     <button name="Selection" type="Button" onclick="Draft1Extended()">1st Draft Extended</button>
+    <br>
+    <br>
+    <button name="Selection" type="Button" onclick="Draft2()">2nd Draft</button>
     </div>
     <noscript>
         Your browser doesn't allow for the use of javascript please either enable java script or switch browsers
